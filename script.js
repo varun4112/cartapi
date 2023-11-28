@@ -10,7 +10,7 @@ function displayData(cartGroup) {
               <div class="card-body">
                <h5 class="card-title">${product.title}</h5>
                <p class="card-text">price : ${product.discountedPrice}</p>
-               <a href="#" class="btn btn-primary">But Now</a>
+               <a href="#" class="btn btn-primary">Buy Now</a>
               </div>
             </div>`;
       cartContainer.innerHTML += htmlData;
